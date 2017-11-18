@@ -51,6 +51,11 @@ h2{
 	text-align: center;
 	margin: 50px;
 }
+@media (max-width: 1044px) { 
+	h1, h2{
+		margin: 15px;
+	}
+}
 h3{
 	color: #696969;
     font-family: "CleanvertisingLight";
@@ -59,7 +64,9 @@ h3{
 	text-align: center;
 	margin: 20px 0;
 }
-
+.text-center{
+	text-align: center;
+}
 .page{
 	min-height: 100vh;
 	display: inline-block;
@@ -74,12 +81,24 @@ h3{
 .block-4{
 	display: inline-block;
 	width: 33.33%;
-	float: left;	
+	float: left;
+	min-width: 280px;	
+}
+@media (max-width: 1044px) { 
+	.block-4{
+		float: none;
+	}
 }
 .container{
 	width: 1044px;
 	margin-left: auto;
 	margin-right: auto;
+}
+@media (max-width: 1044px) { 
+	.container{
+		width: 100%;
+		overflow: hidden;
+	}	
 }
 .blue-bg{
 	background: #87CEFA;	
@@ -124,6 +143,15 @@ h3{
     font-family: "CleanvertisingLight";
 	font-size: 20px;	
    }
+@media (max-width: 1044px) { 
+	.block-header-menu {
+		display: none; 
+		float: right;
+		text-align: center;	
+		font-family: "CleanvertisingLight";
+		font-size: 20px;	
+	}	
+}   
 .block-menu a {
     color: #FFFAF0; 
 	text-decoration: none;
@@ -176,6 +204,16 @@ h3{
 	padding: 50px;
     margin-left: auto;
     margin-right: auto;	
+}
+@media (max-width: 1044px) { 
+	.crane{
+		height: 480px;
+		width: 640px;
+		margin-top: -30%;
+		padding: 10px;
+		margin-left: -70%;
+		margin-right: auto;	
+	}	
 }
 @keyframes hideshow {
   0% { opacity: 1; }
@@ -306,6 +344,11 @@ h3{
 	width: 100%;
 	display: inline-block;
 }
+@media (max-width: 1044px) { 
+	.block-portfolio{
+		text-align: center;
+	}
+}
 .block-portfolio a{
 	background: linear-gradient(to right, #87CEFA, #52c9f1);
 	color: #fff;
@@ -407,6 +450,11 @@ h3{
     font-family: "CleanvertisingLight";
 	font-size: 20px;	
 }
+@media (max-width: 1044px) { 
+	.block-services{
+		text-align: center;
+	}
+}
 #services_page{
 	background-image: url(../images/blue-bg.jpg);
 	background-size: 100% 100%;	
@@ -500,10 +548,11 @@ h3{
 	padding: 30px 0;	
 }
 .footer-links, .footer-social{
-	width: 50%;
+	width: 33.33%;
 	float: left;
 	display: inline-block;
-	padding: 30px 0;	
+	padding: 30px 0;
+	min-width: 280px;		
 }
 .footer-links ul li, .footer-social ul li{
 	list-style: none;
@@ -528,4 +577,8 @@ h3{
 }
 .footer-social{
 	text-align: right;
+}
+/*---------------------------------------------------------------*/
+@media (max-width: 1044px) { 
+
 }
