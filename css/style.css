@@ -567,14 +567,21 @@ h3{
 	padding: 30px 0;	
 }
 .footer-links, .footer-social{
-	width: 33.33%;
+	width: 25%;
 	float: left;
 	display: inline-block;
-	padding: 30px 0;
-	min-width: 280px;		
+	padding: 30px 0;		
+}
+@media (max-width: 1044px) { 
+	.footer-links, .footer-social{
+		min-width: 280px;		
+	}
 }
 .footer-links ul li, .footer-social ul li{
 	list-style: none;
+}
+.footer-links ul li{
+	margin-bottom: 15px;
 }
 .footer-social ul li{
 	display: inline-block;
@@ -599,6 +606,18 @@ h3{
 }
 #vk_like{
 	display: inline-block!important;
+}
+.footer-links-mage{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 7px;
+}
+.footer-links-mage img{
+	width: 100%;
+	height: 100%;
 }
 /*---------------------------------------------------------------*/
 @media (max-width: 1044px) { 
