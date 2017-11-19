@@ -586,10 +586,10 @@ h3{
 	padding: 30px 0;		
 }
 .footer-menu{
-	width: 13%;		
+	width: 15%;		
 }
 .footer-city{
-	width: 32%;
+	width: 35%;
 	text-align: center;
 }
 
@@ -633,10 +633,10 @@ h3{
 	text-align: right;
 }
 #vk_like{
-	display: inline-block!important;
-	margin-top: 5px!important;
-	margin-right: 0!important;
-	float: right!important;
+	display: inline-block !important;
+	margin-top: 25px !important;
+	margin-right: -17px !important;
+	float: right !important;
 }
 .footer-links-mage{
 	width: 110px;
