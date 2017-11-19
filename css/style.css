@@ -578,6 +578,9 @@ h3{
 .footer-social{
 	text-align: right;
 }
+#vk_like{
+	display: inline-block!important;
+}
 /*---------------------------------------------------------------*/
 @media (max-width: 1044px) { 
 
