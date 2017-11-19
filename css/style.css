@@ -558,36 +558,57 @@ h3{
 	width: 100%;
 	float: left;
 	display: inline-block;
-	background: #696969;
+	background: #1e2028;
     font-family: "CleanvertisingLight";
 	color: #fff;
 	font-size: 16px;
+	padding-top: 40px;
 }
 #footer a{
 	color: #fff;
+}
+.footer-bold{
+	font-weight: 700;
+	margin-bottom: 7px;
+	display: block;
 }
 .footer-copy{
 	width: 100%;
 	float: left;
 	display: inline-block;
 	text-align: center;
-	padding: 30px 0;	
+	padding: 50px 0;	
 }
-.footer-links, .footer-social{
+.footer-links, .footer-social, .footer-city, .footer-menu{
 	width: 25%;
 	float: left;
 	display: inline-block;
 	padding: 30px 0;		
 }
+.footer-menu{
+	width: 13%;		
+}
+.footer-city{
+	width: 32%;
+	text-align: center;
+}
+
+.footer-links-hr{
+	height: 3px;
+	background: #87CEFA;
+	margin-bottom: 20px;
+	width: 50px;
+	display: block;
+}
 @media (max-width: 1044px) { 
-	.footer-links, .footer-social{
+	.footer-links, .footer-social, .footer-city{
 		min-width: 280px;		
 	}
 }
-.footer-links ul li, .footer-social ul li{
+.footer-links ul li, .footer-social ul li, .footer-menu ul li{
 	list-style: none;
 }
-.footer-links ul li{
+.footer-links ul li, .footer-menu ul li{
 	margin-bottom: 15px;
 }
 .footer-social ul li{
@@ -605,7 +626,7 @@ h3{
 	font-size: 24px;
 }
 .footer-social ul li a:hover{
-	color: #696969!important;
+	color: #1e2028!important;
 	background: #fff;
 }
 .footer-social{
@@ -618,12 +639,11 @@ h3{
 	float: right!important;
 }
 .footer-links-mage{
-	width: 75px;
-	height: 75px;
+	width: 110px;
+	height: 110px;
 	border-radius: 50%;
 	overflow: hidden;
 	display: inline-block;
-	margin-top: 7px;
 }
 .footer-links-mage img{
 	width: 100%;
