@@ -489,8 +489,15 @@ h3{
 	padding: 30px 15px;
 	background-color: #fff;
 }
+.block-services-element:hover{
+	background-color: #e0f7ff;
+}
 .block-services-element i{
     color: #00b2f0;
+}
+.block-services-element img{
+	height: 100px;
+	width: auto;
 }
 /*-------------------------------------------------------Контакты-----------------------------------------------------*/
 .block-contact_form{
