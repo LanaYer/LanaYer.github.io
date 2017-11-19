@@ -606,7 +606,9 @@ h3{
 }
 #vk_like{
 	display: inline-block!important;
-	margin-top: 5px;
+	margin-top: 5px!important;
+	margin-right: 0!important;
+	float: right!important;
 }
 .footer-links-mage{
 	width: 75px;
