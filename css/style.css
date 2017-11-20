@@ -374,6 +374,11 @@ h3{
 	display: inline-block;
 	cursor: pointer;
 }
+.block-portfolio-show_button {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
 .block-portfolio-element{
 	margin-top: 30px; 
 	border: 1px solid #00b2f0;
@@ -390,7 +395,7 @@ h3{
 }
 .block-portfolio-element-hover{
 	position: absolute; 
-	top: 100px;
+	top: 0px;
 	left: 0;
 	right: 0;
 	bottom:0;
