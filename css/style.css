@@ -584,6 +584,10 @@ h3{
 	padding: 20px 0;
 	font-family: 'Dancing Script', cursive;
 }
+.footer-quote img{
+	height: 50px;
+	width: auto;
+}
 .footer-links, .footer-social, .footer-city, .footer-menu{
 	width: 25%;
 	float: left;
