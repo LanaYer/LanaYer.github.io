@@ -200,11 +200,11 @@ h3{
 @keyframes slideUp-text {
   0% { top: 30px; }
   15% { top: 0px;}
-  35% { top: -30px; }
-  50% { top: -60px;}
-  65% { top: -90px; }
-  80% { top: -120px;}
-  100% { top: -150px; }
+  35% { top: -60px; }
+  50% { top: -90px;}
+  65% { top: -120px; }
+  80% { top: -150px;}
+  100% { top: -180px; }
 }
 @keyframes hideshow {
   0% { opacity: 1; }
