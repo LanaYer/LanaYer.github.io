@@ -197,6 +197,57 @@ h3{
 }
 
 /*-------------------------------------------------------Журавлики-----------------------------------------------------*/
+@keyframes slideUp-text {
+  0% { top: 30px; }
+  15% { top: 0px;}
+  35% { top: -30px; }
+  50% { top: -60px;}
+  65% { top: -90px; }
+  80% { top: -120px;}
+  100% { top: -150px; }
+}
+@keyframes hideshow {
+  0% { opacity: 1; }
+  15% { opacity: 0.3; fill:  #F0F8FF;}
+  35% { opacity: 1; }
+  50% { opacity: 0.3; fill: #87CEFA;}
+  65% { opacity: 1; }
+  80% { opacity: 0.3; fill: #F8F8FF;}
+  100% { opacity: 1; }
+}
+
+.poem-text{
+	position: absolute;
+	top: 30px;
+	left: auto;
+	right: auto;
+	bottom: 250px;
+	width: 1044px;
+	z-index: 0;
+	overflow: hidden;
+	animation: slideUp-text 40s ease infinite;
+
+}
+.poem-text p{
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.3);
+	line-height: 50px;
+	font-weight: 200;
+	font-family: "CleanvertisingLight";
+}
+.poem-text .one{
+	animation: hideshow 7s ease infinite;
+}
+.poem-text .two{
+	animation: hideshow 9s ease infinite;
+}
+.poem-text .three{
+	animation: hideshow 11 ease infinite;
+}
+.poem-text .four{
+	animation: hideshow 13s ease infinite;
+}
+/*-------------------------------------------------------Журавлики-----------------------------------------------------*/
 .crane{
 	height: 520px;
 	width: 640px;
@@ -204,6 +255,7 @@ h3{
 	padding: 50px;
     margin-left: auto;
     margin-right: auto;	
+	z-index: 1000;
 }
 @media (max-width: 1044px) { 
 	.crane{
@@ -215,15 +267,7 @@ h3{
 		margin-right: auto;	
 	}	
 }
-@keyframes hideshow {
-  0% { opacity: 1; }
-  15% { opacity: 0.3; fill:  #F0F8FF;}
-  35% { opacity: 1; }
-  50% { opacity: 0.3; fill: #87CEFA;}
-  65% { opacity: 1; }
-  80% { opacity: 0.3; fill: #F8F8FF;}
-  100% { opacity: 1; }
-}
+
 .crane-shape{
 
 }
