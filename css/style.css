@@ -509,6 +509,18 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 }
+/*-------------------------------------------------------Обо мне-----------------------------------------------------*/
+.block-about{
+    font-family: "CleanvertisingLight";
+	width: 100%;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 24px;
+}
+.block-about img{
+	width: 100%;
+	margin-top: 30px;
+}
 /*-------------------------------------------------------Резюме-----------------------------------------------------*/
 .block-resume {
     font-family: "CleanvertisingLight";
