@@ -233,7 +233,7 @@ h3{
 	color: rgba(255, 255, 255, 0.3);
 	line-height: 50px;
 	font-weight: 200;
-	font-family: "CleanvertisingLight";
+	font-family: 'Cormorant Unicase', serif;
 }
 .poem-text .one{
 	animation: hideshow 7s ease infinite;
