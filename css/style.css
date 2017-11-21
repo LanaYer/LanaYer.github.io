@@ -199,12 +199,14 @@ h3{
 /*-------------------------------------------------------Журавлики-----------------------------------------------------*/
 @keyframes slideUp-text {
   0% { top: 30px; }
-  15% { top: 0px;}
-  35% { top: -60px; }
-  50% { top: -90px;}
-  65% { top: -120px; }
-  80% { top: -150px;}
-  100% { top: -180px; }
+  10% { top: 0px;}
+  20% { top: -60px;}
+  35% { top: -80px; }
+  50% { top: -120px;}
+  65% { top: -150px; }
+  80% { top: -170px;}
+  90% { top: -210px;}
+  100% { top: -250px; }
 }
 @keyframes hideshow {
   0% { opacity: 1; }
@@ -221,7 +223,7 @@ h3{
 	top: 30px;
 	left: auto;
 	right: auto;
-	bottom: 250px;
+	bottom: 150px;
 	width: 1044px;
 	z-index: 0;
 	overflow: hidden;
