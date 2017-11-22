@@ -208,15 +208,17 @@ h3{
 }
 
 @keyframes slideUp-text {
-  0% { top: 30px; }
-  10% { top: 0px;}
-  20% { top: -60px;}
-  35% { top: -80px; }
-  50% { top: -120px;}
-  65% { top: -150px; }
-  80% { top: -170px;}
-  90% { top: -210px;}
-  100% { top: -250px; }
+  	0% { top: 0px; }
+  	10% { top: -30px;}
+  	20% { top: -60px;}
+  	30% { top: -90px; }
+	40% { top: -120px; }
+  	50% { top: -150px;}
+  	60% { top: -180px; }
+	70% { top: -210px; }
+  	80% { top: -240px;}
+  	90% { top: -270px;}
+  	100% { top: -300px; }
 }
 @keyframes hideshow {
   0% { opacity: 1; }
@@ -227,20 +229,22 @@ h3{
   80% { opacity: 0.3; fill: #F8F8FF;}
   100% { opacity: 1; }
 }
+@keyframes showtext {
+	0% { opacity: 0; }
+	100% { opacity: 1;}
+}
 
 .poem-text{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
-	left: 220px;
-	right: auto;
+	left: 0;
+	right: 0;
 	height: 600px;
-	width: 1044px;
 	z-index: 0;
-	overflow: hidden;
 	animation: slideUp-text 40s ease infinite;
 	text-align: center;
-	width: 600px;
+	width: 100%;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
@@ -254,17 +258,65 @@ h3{
 	font-weight: 200;
 	font-family: 'Cormorant Unicase', serif;
 }
-.poem-text .one{
-	animation: hideshow 7s ease infinite;
+.poem-text .p1{
+	animation: showtext 0s ease;
 }
-.poem-text .two{
-	animation: hideshow 9s ease infinite;
+.poem-text .p2{
+	animation: showtext 2s ease;
 }
-.poem-text .three{
-	animation: hideshow 11 ease infinite;
+.poem-text .p3{
+	animation: showtext 4s ease;
 }
-.poem-text .four{
-	animation: hideshow 13s ease infinite;
+.poem-text .p4{
+	animation: showtext 6s ease;
+}
+.poem-text .p5{
+	animation: showtext 8s ease;
+}
+.poem-text .p6{
+	animation: showtext 10s ease;
+}
+.poem-text .p7{
+	animation: showtext 12s ease;
+}
+.poem-text .p8{
+	animation: showtext 14s ease;
+}
+.poem-text .p9{
+	animation: showtext 16s ease;
+}
+.poem-text .p10{
+	animation: showtext 18s ease;
+}
+.poem-text .p11{
+	animation: showtext 20s ease;
+}
+.poem-text .p12{
+	animation: showtext 22s ease;
+}
+.poem-text .p13{
+	animation: showtext 24s ease;
+}
+.poem-text .p14{
+	animation: showtext 26s ease;
+}
+.poem-text .p15{
+	animation: showtext 28s ease;
+}
+.poem-text .p16{
+	animation: showtext 30s ease;
+}
+.poem-text .p17{
+	animation: showtext 32s ease;
+}
+.poem-text .p18{
+	animation: showtext 34s ease;
+}
+.poem-text .p19{
+	animation: showtext 36s ease;
+}
+.poem-text .p20{
+	animation: showtext 38s ease;
 }
 /*-------------------------------------------------------Журавлики-----------------------------------------------------*/
 .crane{
